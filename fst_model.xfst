@@ -1,0 +1,16 @@
+
+define V [a | e | ı | i | o | ö | u | ü];
+
+read lexc lexicon.lexc
+define Lexicon
+
+define Rule1 t->d, p->b, ç->c, k->ğ || _"^".#.;
+define Rule2 "^" -> V || _.#.;
+define Rule3 	V -> [a | ı] || [a | ı] ? _ .#. ,,
+				V -> [e | i] || [e | i] ? _ .#. ,,
+				V -> [u | a] || [o | u] ? _ .#. ,,
+				V -> [ü | e] || [ö | ü] ? _ .#.;
+
+regex Lexicon .o. Rule1 .o. Rule2 .o. Rule3;
+
+save stack 151044018.fst

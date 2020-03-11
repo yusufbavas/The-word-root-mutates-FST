@@ -1,0 +1,51 @@
+LEXICON Root
+
+Noun ;
+
+LEXICON Noun
+
+ağaç		N;
+amaç		N;	
+bacak		N;
+bıçak		N;
+bayrak		N;
+bilek		N;
+cevap		N;
+çocuk		N;
+dolap		N;
+geçit		N;
+inat		N;
+kaçak		N;
+kağıt   	N;
+kilit		N;
+kitap		N;
+kulak		N;
+küskünlük	N;
+senet		N;
+tüfek		N;
+yanak		N;
+
+bayram 		N;	
+bilgisayar	N;
+cam			N;
+cüzdan		N;
+ekran		N;
+defter		N;
+duvar		N;
+gündüz		N;
+insan		N;
+mevsim		N;
+kan 		N;
+kalem		N;
+kas			N;
+komidin		N;
+kürdan		N;
+sabah		N;
+telefon		N;
+tutar		N;
+volkan		N;
+yazılım		N;
+
+LEXICON N
+
++acc:^	#;
